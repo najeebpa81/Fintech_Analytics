@@ -1,1 +1,55 @@
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual Environment
+.venv/
+venv/
+
+# Data files (large CSVs — only if you're not including full data)
+*.csv
+*.xlsx
+data/raw/
+data/large/
+
+# But keep sample data
+!04_Data_Deliverables/*.csv
+
+# Logs and databases
+*.log
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# Optional: ignore large model files if >100MB
+*.pkl
+*.joblib
+# But keep your small models
+!03_Source_Code/*.pkl
