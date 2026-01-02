@@ -8,7 +8,7 @@ The projects housed here focus on high-stakes decision-making, risk mitigation, 
 
 ## 🚀 Active Projects
 
-### 1. End-to-End Credit Risk & Approval Pipeline
+### 1. explainable-loan-approval-default-model
 **Problem:** Balancing loan approval volume with the necessity of default prevention.
 **Solution:** A dual-gate machine learning system. Stage 1 replicates historical approval policies, while Stage 2 uses an XGBoost risk engine to predict the Probability of Default (PD) for approved applicants.
 **Key Results:** * **Default Capture:** Successfully identified ~69% of historical defaults.
