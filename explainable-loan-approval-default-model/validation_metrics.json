@@ -1,0 +1,27 @@
+{
+  "master_rows": 200000,
+  "master_target": {
+    "Accepted": 100000,
+    "Rejected": 100000
+  },
+  "approval": {
+    "train": 133057,
+    "validation": 28519,
+    "test": 28514,
+    "validation_auc": 0.9634601755419268,
+    "test_auc": 0.9651289314325163,
+    "test_accuracy": 0.9187066002665357
+  },
+  "accepted_rows": 226070,
+  "completed_rows": 134549,
+  "default_prevalence": 0.20029134367405182,
+  "default": {
+    "train": 94180,
+    "validation": 20186,
+    "test": 20183,
+    "validation_auc": 0.7174126820321511,
+    "test_auc": 0.7020801211221215,
+    "test_average_precision": 0.3682045163496711,
+    "test_accuracy": 0.6733389486201259
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "dataset_rows_resolved": 134549,
+  "train_rows": 94180,
+  "validation_rows": 20186,
+  "test_rows": 20183,
+  "default_rate": 0.20029134367405182,
+  "validation_roc_auc": 0.7155853794897566,
+  "test_roc_auc": 0.7019285468015488,
+  "test_average_precision": 0.3675409655178139,
+  "threshold_selected_on_validation": 0.49721866846084595,
+  "test_precision_at_selected_threshold": 0.32665680871084823,
+  "test_recall_at_selected_threshold": 0.6011875309252845,
+  "test_f1_at_selected_threshold": 0.4233080742095636,
+  "test_confusion_matrix": [
+    [
+      11132,
+      5009
+    ],
+    [
+      1612,
+      2430
+    ]
+  ],
+  "shap_regenerated": true
+}
