@@ -6,6 +6,12 @@ This portfolio exercise examines two separate classification tasks using histori
 
 **Stage 2 — Historical default outcome:** XGBoost classifies completed accepted loans as fully paid versus charged off/default. Its evaluation covers completed loans only; this selection limits generalization to all newly issued loans. Some predictors (including interest rate and grade) may be determined during underwriting, so the model's intended prediction time must be specified.
 
+## Portfolio deliverables and intended use
+
+This case study illustrates the kinds of deliverables an analyst can prepare: a documented data-and-target review, retrospective classification metrics, an explainability visualization, and a written account of limitations. It does **not** establish that the historical models can safely support lending decisions or generalize to a new client's population.
+
+The original notebook is an exploratory record. The separate strict-validation script improves preprocessing and threshold selection for the default model only; it does not resolve data provenance, feature-timing, temporal-validation, or fairness concerns.
+
 ## Reproduced results
 
 | Metric | Stage 1 | Stage 2 |
